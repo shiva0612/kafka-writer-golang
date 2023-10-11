@@ -1,0 +1,32 @@
+{
+    "Enable": true,
+    "Address": [
+        "nvmbdsip018194.jio.com:9093",
+        "nvmbdsip018195.jio.com:9093",
+        "nvmbdsip018196.jio.com:9093"
+    ],
+    "Balancer": 0,
+    "MaxAttempts": 10,
+    "BatchSize": 100,
+    "BatchBytes": 1048576,
+    "BatchTimeout": 1,
+    "ReadTimeout": 10,
+    "WriteTimeout": 10,
+    "RequiredAcks": 0,
+    "Async": true,
+    "Compression": 0,
+    "Logger": "stdout",
+    "ErrorLogger": "stderr",
+    "AllowAutoTopicCreation": false,
+    "DialTimeout": 5,
+    "IdleTimeout": 30,
+    "TLS": true,
+    "TLSCfg": {
+        "InSecureSkipVerify": false,
+        "ServerName": "",
+        "Public": "",
+        "Private": "",
+        "RootCAs": "./kafka_certs/ca.cer"
+    }
+
+}
